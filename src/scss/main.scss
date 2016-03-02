@@ -1,0 +1,101 @@
+ 
+body{
+    background-color: rgb(32,32,32);
+    font-family: sans-serif;
+    box-sizing:border-box;
+    color: white;    
+}
+
+#center-image {
+    background-image: url('../images/images.jpeg');
+}
+nav{
+    text-align: right;
+}
+header h1{
+    font-size: 1em;
+}
+
+header a{
+    float: left;
+    width: 20%;
+}
+
+header h1{
+     float: left;
+     width: 20%;
+     font-size: 30px;
+}
+
+header nav{
+    float: left;
+     width: 45%;
+}
+nav li{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 500px;
+
+}
+
+.wrapper img {
+    width: 100%;
+}
+
+
+.gallery-item {
+    margin: 0 auto;
+    width: 30%;
+    //float: left;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.photo-title {
+    display:inline;
+}
+
+.date {
+    font-size: 10px;
+    display: inline;
+}
+
+
+.camera-description {
+  
+ }   
+
+@media (min-width: 800px) {
+    .camera-description {
+        position: absolute;
+        left: 100%;
+        top: 0;
+        width: 200px;
+        padding-left: 20px;
+    }
+}
+
+.pix-container {
+    position: relative;
+    margin-bottom: 40px;
+}   

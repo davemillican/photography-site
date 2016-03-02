@@ -1,0 +1,20 @@
+{
+  "name": "photography-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cp node_modules/normalize.css/normalize.css src/scss/_normalize.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davemillican/photography-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davemillican/photography-site/issues"
+  },
+  "homepage": "https://github.com/davemillican/photography-site#readme"
+}
